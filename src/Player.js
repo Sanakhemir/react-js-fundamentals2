@@ -1,7 +1,7 @@
 
 import React from "react";
 
-const Player = (Player) => {
+const Player = (props) => {
     const { name, team, nationality, jerseyNumber, age, imageUrl } = props;
     
     return (

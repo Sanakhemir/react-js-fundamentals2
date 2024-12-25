@@ -4,10 +4,25 @@
 
 
  const PlayersList = (PlayersList) => {
-    // return (
+    return (
+        <div>
+        {players.map((player, index) => (
+          
+          <Player
+            key={index}
+            name={player.name}
+            team={player.team}
+            nationality={player.nationality}
+            jerseyNumber={player.jerseyNumber}
+            age={player.age}
+            imageUrl={player.imageUrl}
+          />
+        ))}
+      </div>
+
         
-    // ):
- }
+    );
+ };
 
 
 
